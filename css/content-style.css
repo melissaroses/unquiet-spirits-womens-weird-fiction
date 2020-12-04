@@ -30,16 +30,22 @@ a {
 }
 
 .authorInfo{
-    margin: 30px;
+    margin: 50px;
     width: 50%;
     min-width: 300px;
 }
 
 .avatar {
-    width: 25%;
-    height: 25%;
+    width: 75%;
+    height: 75%;
     min-width: 125px; 
     min-height: 125px;
     border-radius: 50%;
     margin-right: 20px;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 50px;
 }

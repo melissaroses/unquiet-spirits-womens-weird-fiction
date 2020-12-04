@@ -1,0 +1,10 @@
+.fullPost {
+    display: flex;
+    border: 1px solid magenta;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

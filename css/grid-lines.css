@@ -57,6 +57,10 @@
     border: 1px solid maroon;
 }
 
+.avatar {
+    border: 1px solid purple;
+}
+
 .profile {
     border: 1px solid steelblue;
 }

@@ -19,7 +19,7 @@
         "sideL section sideR"
         "sideL books sideR"
         "sideL auth sideR"
-        "sideL foot sideR"
+        "foot foot foot"
     }
 .header {
     grid-area: head;
@@ -95,7 +95,7 @@
 
 .social {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
 }
 
 .footer {
