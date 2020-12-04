@@ -33,7 +33,7 @@
     grid-area: sideR;
 }
 
-navbar {
+.navbar {
     grid-area: nav;
 }
 
