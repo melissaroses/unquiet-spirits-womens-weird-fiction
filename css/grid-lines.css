@@ -29,6 +29,14 @@
     border: 1px solid red;
 }
 
+.fullPost {
+    border: 1px solid magenta;
+}
+
+.bookSection {
+    border: 1px solid orange;
+}
+
 .books {
     border: 1px solid purple;
 }
