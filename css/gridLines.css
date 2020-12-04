@@ -1,0 +1,70 @@
+.container {
+    border: 1px solid black;
+}
+.header {
+    border: 1px solid maroon;
+} 
+
+.sidebarLeft {
+    border: 1px solid gray;
+}
+
+.sidebarRight {
+    border: 1px solid gray;
+}
+
+.navbar {
+    border: 1px solid brown;
+}
+
+.tabs {
+    border: 1px solid green 1px;
+    }
+
+.tab {
+    border: 1px solid 1px blue;
+}
+
+.blogIntro {
+    border: 1px solid red;
+}
+
+.books {
+    border: 1px solid purple;
+}
+
+.bookCovers {
+    border: 1px solid orange;
+}
+
+.book {
+    border: 1px solid skyblue;
+}
+
+.blogSection {
+    border: 1px solid green;
+}
+
+.posts {
+    border: 1px solid red;
+}
+
+.post {
+    border: 1px solid blue;
+}
+
+.authorInfo {
+    border: 1px solid maroon;
+}
+
+.profile {
+    border: 1px solid steelblue;
+}
+
+.social {
+    border: 1px solid orange,
+}
+
+.footer {
+    border: 1px solid purple;
+}

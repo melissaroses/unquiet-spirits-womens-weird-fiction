@@ -1,97 +1,103 @@
-    .container {
+@media(max-width: 320px){
+
+}
+@media(min-width: 901px){
+
+}
+@media(min-width: 600px) and (max-width: 900px){
+
+}
+.container {
         display: grid;
         grid-template-columns: .5fr 3fr .5fr;
         grid-template-rows: auto;
         grid-template-areas: 
-            "head head head"
-            "sideL nav sideR"
-            "sideL intro sideR"
-            "sideL posts sideR"
-            "sideL section sideR"
-            "sideL books sideR"
-            "sideL auth sideR"
-            "sideL foot sideR"
+        "head head head"
+        "sideL nav sideR"
+        "sideL intro sideR"
+        "sideL posts sideR"
+        "sideL section sideR"
+        "sideL books sideR"
+        "sideL auth sideR"
+        "sideL foot sideR"
     }
-    .header {
-        grid-area: head;
-        border: black solid 1px;
-    } 
+.header {
+    grid-area: head;
+} 
 
-    .sidebarLeft {
-        grid-area: sideL;
-    }
+.sidebarLeft {
+    grid-area: sideL;
+}
 
-    .sidebarRight {
-        grid-area: sideR;
-    }
+.sidebarRight {
+    grid-area: sideR;
+}
 
-    .navbar {
-        grid-area: nav;
-        border: brown 1px solid;
-    }
+navbar {
+    grid-area: nav;
+}
 
-    .tabs {
-        display: flex;
-        justify-content: space-around;
-        border: solid green 1px;
-        }
-
-    .tab {
-        display: inline;
-        border: solid 1px blue;
+.tabs {
+    display: flex;
+    justify-content: space-around;
     }
 
-    .blogIntro {
-        grid-area: intro;
-        border: 1px solid red;
-    }
+.tab {
+    display: inline;
+}
 
-    .books {
-        grid-area: books;
-        border: solid 1px purple;
-        display: grid;
-        grid-template-columns: 1fr 2fr 1fr;
-        grid-template-areas: ". cov ."
-    }
+.blogIntro {
+    grid-area: intro;
+}
 
-    .bookCovers {
-        grid-area: cov;
-        display: flex;
-        justify-content: space-between;
-        border: solid 1px orange;
-    }
+.books {
+    grid-area: books;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas: ". cov ."
+}
 
-    .book {
-        border: solid 1px skyblue;
-        width: 100%;
-    }
+.bookCovers {
+    grid-area: cov;
+    display: flex;
+    justify-content: space-between;
+}
 
-    .blogSection {
-        grid-area: posts;
-        display: grid;
-        grid-template-rows: .25fr 3fr;
-        grid-template-areas: 
-            "sectionTitle"
-            "cards";
-    }
+.book {
+    width: 100%;
+}
 
-    .posts {
-        display: flex;
-        flex-direction: row;
-        grid-area: cards;
-        border: 1px solid green;
-    }
+.blogSection {
+    grid-area: posts;
+    display: grid;
+    grid-template-rows: .25fr 3fr;
+    grid-template-areas: 
+        "sectionTitle"
+        "cards";
+}
 
-    .post {
-        border: 1px solid maroon; 
-        width: 100%;
-    }
+.posts {
+    display: flex;
+    flex-direction: row;
+    grid-area: cards;
+}
+.post {
+    width: 100%;
+}
     
-    .authorInfo {
-        grid-area: auth;
-        border: 1px solid maroon;
-    }
+.authorInfo {
+    grid-area: auth;
+}
 
-    .footer {
-        grid-area: foot;
-    }
+.profile {
+    display: flex;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer {
+    grid-area: foot;
+}
