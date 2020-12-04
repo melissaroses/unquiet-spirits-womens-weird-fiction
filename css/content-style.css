@@ -1,3 +1,21 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/wyndclyffe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    color: black;
+}
+
+.center {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+}
+
 header {
     text-align: center;
 }
@@ -9,6 +27,7 @@ ul {
 
 a {
     text-decoration: none;
+    color: maroon;
 }
 
 .blogTitle {
