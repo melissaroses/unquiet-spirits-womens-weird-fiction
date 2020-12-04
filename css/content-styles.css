@@ -1,0 +1,38 @@
+
+header {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.book {
+    text-align: center;
+}
+
+.cover {
+    max-width: 75%;
+}
+
+.portrait {
+    width: 90%;
+}
+
+.post {
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+.authorInfo{
+    padding: 20px;
+    margin-top: 10px;
+    width: 30%;
+}
+
+.avatar {
+    width: 40%;
+    border-radius: 50%;
+}

@@ -1,0 +1,97 @@
+    .container {
+        display: grid;
+        grid-template-columns: .5fr 3fr .5fr;
+        grid-template-rows: auto;
+        grid-template-areas: 
+            "head head head"
+            "sideL nav sideR"
+            "sideL intro sideR"
+            "sideL posts sideR"
+            "sideL section sideR"
+            "sideL books sideR"
+            "sideL auth sideR"
+            "sideL foot sideR"
+    }
+    .header {
+        grid-area: head;
+        border: black solid 1px;
+    } 
+
+    .sidebarLeft {
+        grid-area: sideL;
+    }
+
+    .sidebarRight {
+        grid-area: sideR;
+    }
+
+    .navbar {
+        grid-area: nav;
+        border: brown 1px solid;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        border: solid green 1px;
+        }
+
+    .tab {
+        display: inline;
+        border: solid 1px blue;
+    }
+
+    .blogIntro {
+        grid-area: intro;
+        border: 1px solid red;
+    }
+
+    .books {
+        grid-area: books;
+        border: solid 1px purple;
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: ". cov ."
+    }
+
+    .bookCovers {
+        grid-area: cov;
+        display: flex;
+        justify-content: space-between;
+        border: solid 1px orange;
+    }
+
+    .book {
+        border: solid 1px skyblue;
+        width: 100%;
+    }
+
+    .blogSection {
+        grid-area: posts;
+        display: grid;
+        grid-template-rows: .25fr 3fr;
+        grid-template-areas: 
+            "sectionTitle"
+            "cards";
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: row;
+        grid-area: cards;
+        border: 1px solid green;
+    }
+
+    .post {
+        border: 1px solid maroon; 
+        width: 100%;
+    }
+    
+    .authorInfo {
+        grid-area: auth;
+        border: 1px solid maroon;
+    }
+
+    .footer {
+        grid-area: foot;
+    }
