@@ -2,8 +2,29 @@
     display: flex;
 }
 
-.text {
+.quote {
     display: flex;
     justify-content: center;
     flex-direction: column;
+}
+
+.otherAuthors{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+}
+
+.miniPortait {
+    display: flex;
+    flex-direction: row;
+}
+
+figCaption {
+    text-align: center;
+}
+
+.socialLink {
+    padding: 0px 25px 25px 0px;
+    margin-left: 0:
 }

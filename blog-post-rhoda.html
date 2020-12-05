@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/grid-layout.css" rel="stylesheet">
-        <link href="css/content-style.css" rel="stylesheet">
-        <link href="css/card-style.css" rel="stylesheet">
-        <link href="css/blog-post-layout.css" rel="stylesheet">
-        <!-- <link href="css/grid-lines.css" rel="stylesheet"> -->
 
-        <title>Blog Post - Rhoda Brougton</title>
-    </head>
-    <body>
-        <div class="container">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid-layout.css" rel="stylesheet">
+    <link href="css/content-style.css" rel="stylesheet">
+    <link href="css/card-style.css" rel="stylesheet">
+    <link href="css/blog-post-layout.css" rel="stylesheet">
+    <!-- <link href="css/grid-lines.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <title>Blog Post - Rhoda Brougton</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="center">
             <div class="header">
                 <header>
                     <h1 class="blogTitle">Unquiet Spirits - Women's Weird Fiction</h1>
                     <div class="navbar">
                         <nav>
                             <ul class="tabs">
-                                <a href="index.html"><li class="tab">Blog Home</li></a>
-                                <a href="#"><li class="tab">Further Reading</li></a>
-                                <a href="author-info.html"><li class="tab">About Melissa</li></a>
+                                <a href="index.html">
+                                    <li class="tab">Blog Home</li>
+                                </a>
+                                <a href="#">
+                                    <li class="tab">Further Reading</li>
+                                </a>
+                                <a href="author-info.html">
+                                    <li class="tab">About Melissa</li>
+                                </a>
                             </ul>
-                       </nav>
+                        </nav>
+                        <hr>
                     </div>
                 </header>
             </div>
             <div class="fullPost">
                 <figure>
-                    <h1>Edith Wharton</h1>
+                    <h1>Rhoda Broughton</h1>
                     <img src="images/rhoda-broughton.jpg" alt="Rhoda Brougton">
                     <figcaption>Rhoda Brougton - 1840-1920</figcaption>
                 </figure>
-                <div class="text">
-                    <p><em>"After that she dared not make a pet of any other dog; and her loneliness became almost unendurable. Sometimes, when she crossed the court of the castle, and thought no one was looking, she stopped to pat the old pointer at the gate. But one day as she was caressing him her husband came out of the chapel; and the next day the old dog was gone..."</em></p>
+                <div class="quote">
+                    <p><em>"I tell you that as sure as I sit here—as sure as you stand there—I saw
+                            him—<strong><em>him</em></strong>—the man I saw in my dream, if it was a dream.
+                            There was not a hair’s-breadth of difference between them—and he was looking at
+                            me—looking..."</em></p>
                     <p><strong><em>- Kerfol</em></strong></p>
-                </div>            
+                </div>
+            </div>
+            <div class="otherPosts">
+                <h1>Other Authors</h1>
+                <div class=otherAuthors>
+                    <a href="blog-post-edith.html">
+                        <div class="">
+                            <figure>
+                                <img class="portrait" src="images/edith-wharton.jpg" alt="Edith Wharton">
+                                <figcaption>Edith Wharton</figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                    <a href="blog-post-may.html">
+                        <div class="">
+                            <figure>
+                                <img class="portrait" src="images/may-sinclair.jpg" alt="May Sinclair">
+                                <figcaption>May Sinclair</figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="authorInfo">
                 <h2>About Melissa</h2>
@@ -44,19 +80,28 @@
                     <img class="avatar" src="images/avatar.jpg" alt="Melissa Rose Profile Photo">
                     <div class="details">
                         <h3>Aspiring Web Developer<br>Dance Instructor at Melissa Rose Dance</h3>
-                        <p>Melissa is a dance instructor in San Francisco, CA. She is currently studying web development, music, and Victorian/Gothic literature.</p>
+                        <p>Melissa is a dance instructor in San Francisco, CA. She is currently studying web
+                            development, music, and Victorian/Gothic literature.</p>
                         <div class="social">
                             <a class="socialLink" href="#">facebook</a>
                             <a class="socialLink" href="#">twitter</a>
                             <a class="socialLink" href="#">linkedin</a>
                         </div>
-                    </div>                
+                    </div>
                 </div>
             </div>
-            <footer class="footer">Design by Melissa Rose - Web Developer</footer>
-            <div class="sidebarLeft"></div>
-            <div class="sidebarRight"></div>
+            <footer class="footer">
+                <hr>
+                <p>Design by Melissa Rose - Web Developer</p>
+                <form action="">
+                    <input type="email" id="email" name="email" placeholder="enter your email">
+                    <button type="submit">Request Information</button>
+                </form>
+            </footer>
         </div>
-    </body>
-</html>
+        <div class="sidebarLeft"></div>
+        <div class="sidebarRight"></div>
+    </div>
+</body>
 
+</html>

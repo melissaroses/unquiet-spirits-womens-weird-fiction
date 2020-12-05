@@ -1,29 +1,41 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/grid-layout.css" rel="stylesheet">
-        <link href="css/content-style.css" rel="stylesheet">
-        <link href="css/card-style.css" rel="stylesheet">
-        <link href="css/blog-post-layout.css" rel="stylesheet">
-        <!-- <link href="css/grid-lines.css" rel="stylesheet"> -->
 
-        <title>Blog Post - May Sinclair</title>
-    </head>
-    <body>
-        <div class="container">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/grid-layout.css" rel="stylesheet">
+    <link href="css/content-style.css" rel="stylesheet">
+    <link href="css/card-style.css" rel="stylesheet">
+    <link href="css/blog-post-layout.css" rel="stylesheet">
+    <!-- <link href="css/grid-lines.css" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <title>Blog Post - May Sinclair</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="center">
             <div class="header">
                 <header>
                     <h1 class="blogTitle">Unquiet Spirits - Women's Weird Fiction</h1>
                     <div class="navbar">
                         <nav>
                             <ul class="tabs">
-                                <a href="index.html"><li class="tab">Blog Home</li></a>
-                                <a href="#"><li class="tab">Further Reading</li></a>
-                                <a href="author-info.html"><li class="tab">About Melissa</li></a>
+                                <a href="index.html">
+                                    <li class="tab">Blog Home</li>
+                                </a>
+                                <a href="#">
+                                    <li class="tab">Further Reading</li>
+                                </a>
+                                <a href="author-info.html">
+                                    <li class="tab">About Melissa</li>
+                                </a>
                             </ul>
-                       </nav>
+                        </nav>
+                        <hr>
                     </div>
                 </header>
             </div>
@@ -33,10 +45,35 @@
                     <img src="images/may-sinclair.jpg" alt="May Sinclair">
                     <figcaption>May Sinclair - 1863-1946</figcaption>
                 </figure>
-                <div class="text">
-                    <p><em>"They were being drawn towards each other across the room, moving slowly, like figures in some monstrous and appalling dance, their heads thrown back over their shoulders, their faces turned from the horrible approach. Their arms rose slowly, heavy with intolerable reluctance; they stretched them out towards each other, aching, as if they held up an overpowering weight. Their feet dragged and were drawn."</em></p>
+                <div class="quote">
+                    <p><em>"They were being drawn towards each other across the room, moving slowly, like figures in
+                            some monstrous and appalling dance, their heads thrown back over their shoulders, their
+                            faces turned from the horrible approach. Their arms rose slowly, heavy with intolerable
+                            reluctance; they stretched them out towards each other, aching, as if they held up an
+                            overpowering weight. Their feet dragged and were drawn."</em></p>
                     <p><strong><em>- Where their Fire is not Quenched</em></strong></p>
-                </div>            
+                </div>
+            </div>
+            <div class="otherPosts">
+                <h1>Other Authors</h1>
+                <div class=otherAuthors>
+                    <a href="blog-post-rhoda.html">
+                        <div class="">
+                            <figure>
+                                <img class="portrait" src="images/rhoda-broughton.jpg" alt="Rhoda Broughton">
+                                <figcaption>Rhoda Broughton</figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                    <a href="blog-post-edith.html">
+                        <div class="">
+                            <figure>
+                                <img class="portrait" src="images/edith-wharton.jpg" alt="Edith Wharton">
+                                <figcaption>Edith Wharton</figcaption>
+                            </figure>
+                        </div>
+                    </a>
+                </div>
             </div>
             <div class="authorInfo">
                 <h2>About Melissa</h2>
@@ -44,19 +81,28 @@
                     <img class="avatar" src="images/avatar.jpg" alt="Melissa Rose Profile Photo">
                     <div class="details">
                         <h3>Aspiring Web Developer<br>Dance Instructor at Melissa Rose Dance</h3>
-                        <p>Melissa is a dance instructor in San Francisco, CA. She is currently studying web development, music, and Victorian/Gothic literature.</p>
+                        <p>Melissa is a dance instructor in San Francisco, CA. She is currently studying web
+                            development, music, and Victorian/Gothic literature.</p>
                         <div class="social">
                             <a class="socialLink" href="#">facebook</a>
                             <a class="socialLink" href="#">twitter</a>
                             <a class="socialLink" href="#">linkedin</a>
                         </div>
-                    </div>                
+                    </div>
                 </div>
             </div>
-            <footer class="footer">Design by Melissa Rose - Web Developer</footer>
-            <div class="sidebarLeft"></div>
-            <div class="sidebarRight"></div>
+            <footer class="footer">
+                <hr>
+                <p>Design by Melissa Rose - Web Developer</p>
+                <form action="">
+                    <input type="email" id="email" name="email" placeholder="enter your email">
+                    <button type="submit">Request Information</button>
+                </form>
+            </footer>
         </div>
-    </body>
-</html>
+        <div class="sidebarLeft"></div>
+        <div class="sidebarRight"></div>
+    </div>
+</body>
 
+</html>
