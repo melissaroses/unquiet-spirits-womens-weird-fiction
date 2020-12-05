@@ -11,7 +11,7 @@ body {
 
 .container {
     color: rgb(38, 0, 59);
-    box-shadow: 75px 0px 75px 0 rgb(0, 0, 0, .75) inset, -75px 0px 75px 0 rgb(0, 0, 0, .75) inset; 
+    box-shadow: 75px 0px 75px 0 rgb(0, 0, 0, .75) inset, -75px 0px 75px 0 rgb(0, 0, 0, .75) inset;
 }
 
 .center {
