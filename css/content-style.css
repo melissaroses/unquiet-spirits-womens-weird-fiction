@@ -1,3 +1,24 @@
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url(../images/wyndclyffe.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'EB Garamond', serif;
+    font-size: 1.3em;
+}
+
+.container {
+    color: rgb(38, 0, 59);
+    box-shadow: 75px 0px 75px 0 rgb(0, 0, 0, .75) inset, -75px 0px 75px 0 rgb(0, 0, 0, .75) inset;
+}
+
+.center {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+}
+
 header {
     text-align: center;
 }
@@ -9,16 +30,30 @@ ul {
 
 a {
     text-decoration: none;
+    color: rgb(104, 0, 0);
+    font-weight: bold;
+}
+
+h1 {
+    color: rgb(0, 92, 92);
 }
 
 .blogTitle {
     font-size: 2.5em;
     padding: 25px;
-
 }
 
 .tab {
     font-size: 1.25em;
+}
+
+hr {
+    border: 0; 
+    height: 2px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #270029, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #270029, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #270029, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #270029, #f0f0f0); 
 }
 
 .book {
@@ -27,12 +62,24 @@ a {
 
 .cover {
     max-width: 75%;
+    box-shadow: 5px 5px 50px 5px rgba(50, 50, 50, 0.75);
+}
+
+button {
+    font-family: inherit;
+    font-weight: bold;
+    font-size: .75em;
+    color:  inherit;
 }
 
 .portrait {
     width: 90%;
     border-radius: 50%;
-    box-shadow: 1px 2px 3px rgba(0,0,0,.5);    
+    box-shadow: 5px 5px 5px rgba(0,0,0,.5);    
+}
+
+.quote {
+    font-style: italic;
 }
 
 .post {
@@ -43,13 +90,13 @@ a {
 
 .authorInfo{
     margin: 50px;
-    width: 50%;
+    width: 75%;
     min-width: 300px;
 }
 
 .avatar {
-    width: 75%;
-    height: 75%;
+    width: 40%;
+    height: 40%;
     min-width: 125px; 
     min-height: 125px;
     border-radius: 50%;
