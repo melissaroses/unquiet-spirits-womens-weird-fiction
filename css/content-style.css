@@ -73,6 +73,7 @@ button {
     font-weight: bold;
     font-size: .75em;
     color:  inherit;
+    /* height: auto; */
 }
 
 .portrait {
