@@ -17,8 +17,6 @@ body {
 .center {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
-    /* box-shadow: 10px 0px 10px 0 rgb(0, 0, 0, .1) inset, -10px 0px 10px 0 rgb(0, 0, 0, .1) inset; */
-
 }
 
 header {
@@ -49,6 +47,7 @@ h1 {
 .tab {
     font-size: 1.25em;
     text-shadow: 5px 5px 25px #181818;
+    padding: 5px;
 }
 
 hr {
@@ -90,6 +89,7 @@ button {
     text-align: center;
     padding: 5px;
     margin: 5px;
+    width: 90%;
 }
 
 .authorInfo{

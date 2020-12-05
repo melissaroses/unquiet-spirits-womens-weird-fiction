@@ -20,7 +20,8 @@
         "sideL books sideR"
         "sideL auth sideR"
         "foot foot foot"
-    }
+}
+
 .header {
     grid-area: head;
 } 

@@ -1,0 +1,45 @@
+@media(max-width: 320px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1;
+}
+
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.tab {
+    padding: 15px;
+    margin: 10px;
+    line-height: 1.75em;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+}
+
+/* @media(min-width: 901px) {
+
+}
+@media(min-width: 600px) and (max-width: 900px) {
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .post { 
+        width: 75%;
+    }
+    
+} */
