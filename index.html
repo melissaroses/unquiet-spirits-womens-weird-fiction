@@ -8,9 +8,10 @@
     <link href="css/content-style.css" rel="stylesheet">
     <link href="css/card-style.css" rel="stylesheet">
     <!-- <link href="css/grid-lines.css" rel="stylesheet" > -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
 
     <title>Unquiet Spirits - Women's Weird</title>
-
 </head>
 
 <body>
@@ -19,22 +20,23 @@
             <div class="header">
                 <header>
                     <h1 class="blogTitle">Unquiet Spirits - Women's Weird Fiction</h1>
+                    <div class="navbar">
+                        <nav>
+                            <ul class="tabs">
+                                <a href="index.html">
+                                    <li class="tab">Blog Home</li>
+                                </a>
+                                <a href="#">
+                                    <li class="tab">Further Reading</li>
+                                </a>
+                                <a href="author-info.html">
+                                    <li class="tab">About Melissa</li>
+                                </a>
+                            </ul>
+                        </nav>
+                        <hr>
+                    </div>
                 </header>
-            </div>
-            <div class="navbar">
-                <nav>
-                    <ul class="tabs">
-                        <a href="index.html">
-                            <li class="tab">Blog Home</li>
-                        </a>
-                        <a href="#">
-                            <li class="tab">Further Reading</li>
-                        </a>
-                        <a href="author-info.html">
-                            <li class="tab">About Melissa</li>
-                        </a>
-                    </ul>
-                </nav>
             </div>
 
             <div class="blogIntro">
@@ -61,18 +63,22 @@
             <div class="blogSection">
                 <h1>The Authors and their Stories</h1>
                 <div class=posts>
-                    <div class="card post">
-                        <a href="blog-post-edith.html">
-                            <h2>Edith Wharton</h2>
-                            <img class="portrait" src="images/edith-wharton.jpg" alt="Edith Wharton">
-                            <h3>Kerfol</h3>
-                            <p class="quote"><em>"After that she dared not make a pet of any other dog; and her
-                                    loneliness became almost unendurable. Sometimes, when she crossed the court of the
-                                    castle, and thought no one was looking, she stopped to pat the old pointer at the
-                                    gate. But one day as she was caressing him her husband came out of the chapel; and
-                                    the next day the old dog was gone..."</em></p>
-                        </a>
-                    </div>
+                    <a href="blog-post-edith.html">
+                        <div class="card post">
+                            <a href="blog-post-edith.html">
+                                <h2>Edith Wharton</h2>
+                                <img class="portrait" src="images/edith-wharton.jpg" alt="Edith Wharton">
+                                <h3>Kerfol</h3>
+                                <p class="quote"><em>"After that she dared not make a pet of any other dog; and her
+                                        loneliness became almost unendurable. Sometimes, when she crossed the court of
+                                        the
+                                        castle, and thought no one was looking, she stopped to pat the old pointer at
+                                        the
+                                        gate. But one day as she was caressing him her husband came out of the chapel;
+                                        and
+                                        the next day the old dog was gone..."</em></p>
+                        </div>
+                    </a>
                     <div class="card post">
                         <a href="blog-post-may.html">
                             <h2>May Sinclair</h2>
@@ -129,7 +135,14 @@
                     </div>
                 </div>
             </div>
-            <footer class="footer">Design by Melissa Rose - Web Developer</footer>
+            <footer class="footer">
+                <hr>
+                <p>Design by Melissa Rose - Web Developer</p>
+                <form action="">
+                    <input type="email" id="email" name="email" placeholder="enter your email">
+                    <button type="submit">Request Information</button>
+                </form>
+            </footer>
         </div>
         <div class="sidebarLeft"></div>
         <div class="sidebarRight"></div>
