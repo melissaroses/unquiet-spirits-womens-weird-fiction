@@ -42,14 +42,14 @@
         grid-template-columns: 3;
         grid-template-rows: auto;
         grid-template-areas: 
-            "sideL head sideR"
-            "sideL nav sideR"
-            "sideL intro sideR"
-            "sideL posts sideR"
-            "sideL section sideR"
-            "sideL books sideR"
-            "sideL auth sideR"
-            "sideL foot sideR";
+            "head"
+            "nav"
+            "intro"
+            "posts"
+            "section"
+            "books"
+            "auth"
+            "foot";
         }
     
     .tabs {
