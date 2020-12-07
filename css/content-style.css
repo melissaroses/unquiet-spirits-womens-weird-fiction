@@ -7,6 +7,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    box-shadow: 75px 0px 75px 0 rgb(0, 0, 0, .75) inset, -75px 0px 75px 0 rgb(0, 0, 0, .75) inset;
 }
 
 .centerPanel {
@@ -112,11 +113,6 @@ body {
 .container {
     color: rgb(38, 0, 59);
     box-shadow: 75px 0px 75px 0 rgb(0, 0, 0, .75) inset, -75px 0px 75px 0 rgb(0, 0, 0, .75) inset;
-}
-
-ul {
-    list-style: none;
-    padding-left: 0;
 }
 
 
