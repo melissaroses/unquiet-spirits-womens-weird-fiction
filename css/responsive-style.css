@@ -1,6 +1,9 @@
 @media (min-width: 320px) and (max-width: 600px) {
 
-    
+    .centerPanel {
+        display: flex;
+        flex-direction: column;
+    }
 
     .books {
         display: flex;
