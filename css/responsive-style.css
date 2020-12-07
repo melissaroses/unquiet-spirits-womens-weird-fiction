@@ -101,6 +101,10 @@
         display: flex;
         flex-direction: column;
     }
+
+    .tabs {
+        line-height: 2em;
+    }
     
     .bookPair {
         display: flex;
