@@ -66,6 +66,10 @@
         justify-content: space-evenly;
     }
 
+    .cardPortrait {
+        width: 50%;
+    }
+
     .books {
         display: grid;
         grid-template-columns: .25fr 2fr .25fr;
