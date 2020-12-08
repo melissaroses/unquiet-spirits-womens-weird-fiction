@@ -1,5 +1,6 @@
 body {
     font-family: 'EB Garamond', serif;
+    color: rgb(75, 0, 75);
     padding: 0px;
     margin: 0px;
     font-size: 1.25em;
@@ -48,6 +49,10 @@ h1 {
     color: rgb(0, 92, 92);
 }
 
+h2 {
+    color: rgb(104, 0, 0);
+}
+
 a {
     text-decoration: none;
     font-weight: bold;
@@ -57,10 +62,6 @@ a {
 .dropCap {
     width: .25em;
     font-size: 200%;
-}
-
-p {
-    color: rgb(75, 0, 75)
 }
 
 .post {
@@ -101,14 +102,6 @@ button {
 
 
 /* 
-
-
-
-
-
-button {
-    font-family: inherit;
-} 
 
 body {
     padding: 0px;

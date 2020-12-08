@@ -1,7 +1,11 @@
-.container {
+/* .container {
     margin: 0;
     padding: 0;
-}
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+} */
 
 .centerPanel {
     grid-area: center;
@@ -56,7 +60,38 @@ footer {
     justify-content: center;
 }
 
+/* Author Info Page */
+.authorInfo{
+    margin: 50px;
+    width: 75%;
+    min-width: 300px;
+}
 
+.avatar {
+    width: 15%;
+    height: 15%;
+    min-width: 100px; 
+    min-height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.window {
+    grid-area: center;
+    background-color: red;
+}
+
+.centerPanel2 {
+        grid-area: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
 
  /* centerPanel background-color: rgba(255, 255, 255, 0.9);
     background-color: rgba(83, 19, 83, 0.1); 
