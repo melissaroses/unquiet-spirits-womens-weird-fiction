@@ -52,17 +52,17 @@ ul {
 }
 
 h1 {
-    color: rgb(0, 71, 77);
+    color: rgb(0, 90, 86);
 }
 
 h2 {
-    color: rgb(104, 0, 0);
+    color: rgb(161, 0, 22);
 }
 
 a {
     text-decoration: none;
     font-weight: bold;
-    color: rgb(104, 0, 0);
+    color: rgb(161, 0, 22);
 }
 
 .dropCap {
@@ -79,7 +79,7 @@ a {
 }
 
 .storyQuote {
-    color: rgb(104, 0, 0);
+    color: rgb(161, 0, 22);
     font-style: italic;
 }
 
@@ -102,7 +102,7 @@ button {
     font-family: inherit;
     font-size: .75em;
     font-weight: bold;
-    color: rgb(104, 0, 0);
+    color: rgb(161, 0, 22);
 
 }
 
