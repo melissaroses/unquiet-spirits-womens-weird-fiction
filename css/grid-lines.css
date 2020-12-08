@@ -1,9 +1,10 @@
 .container {
     border: 1px solid black;
 }
-.header {
-    border: 1px solid maroon;
-} 
+
+.centerPanel {
+    border: 1px solid green;
+}
 
 .sidebarLeft {
     border: 1px solid gray;
@@ -12,6 +13,10 @@
 .sidebarRight {
     border: 1px solid gray;
 }
+
+.header {
+    border: 1px solid maroon;
+} 
 
 .navbar {
     border: 1px solid brown;
@@ -29,7 +34,7 @@
     border: 1px solid red;
 }
 
-.fullPost {
+.blogPost {
     border: 1px solid magenta;
 }
 
@@ -37,7 +42,7 @@
     border: 1px solid orange;
 }
 
-.books {
+.bookPair {
     border: 1px solid purple;
 }
 

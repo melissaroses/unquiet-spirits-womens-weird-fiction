@@ -1,0 +1,335 @@
+@media(min-width: 901px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: .5fr 3fr .5fr;
+        align-items: center;
+        grid-template-areas:
+            "sideL center sideR";
+    }
+
+    .sidebarL {
+        grid-area: sidebarL;
+    }
+    
+    .sidebarR {
+        grid-area: sidebarR;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: rows;
+        justify-content: space-evenly;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .card {
+        height: 95%;
+    }
+
+    .books {
+        display: grid;
+        grid-template-columns: .5fr 1fr .5fr;
+        grid-template-areas:
+            ". bookPair .";
+    }
+
+    .bookPair {
+        grid-area: bookPair;
+    }
+
+    .blogPost {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .authorPhoto {
+        height: 100%;
+        max-height: 400px;
+        margin: 0 50px 0 50px;
+    }
+}
+
+@media(min-width: 600px) and (max-width: 900px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: .5fr 3fr .5fr;
+        align-items: center;
+        grid-template-areas:
+            "sideL center sideR";
+    }
+
+    .sidebarL {
+        grid-area: sidebarL;
+    }
+    
+    .sidebarR {
+        grid-area: sidebarR;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: rows;
+        justify-content: space-evenly;
+    }
+
+    .posts {
+        margin: 0 10% 0 10%;        
+    }
+
+    .cardPortrait {
+        width: 75%;
+    }
+
+    .books {
+        display: grid;
+        grid-template-columns: .25fr 2fr .25fr;
+        grid-template-areas:
+            ". bookPair .";
+    }
+
+    .bookPair {
+        grid-area: bookPair;
+    }
+
+    /* Blog Post Page */
+
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: .25fr 3fr .25fr;
+        align-items: center;
+        grid-template-areas:
+            "sideL center sideR";
+    }
+
+    .sidebarL {
+        grid-area: sidebarL;
+    }
+    
+    .sidebarR {
+        grid-area: sidebarR;
+    }
+
+    .centerPanel {
+        grid-area: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabs {
+        line-height: 2em;
+    }
+
+    .cardPortrait {
+        width: 75%;
+    }
+
+    .bookPair {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .books {
+        display: grid;
+        grid-template-columns: .25fr 2fr .25fr;
+        grid-template-areas:
+            ". bookPair .";
+    }
+
+    .bookPair {
+        grid-area: bookPair;
+    }
+    
+    .bookCover {
+        width: 50%;
+    }
+    
+    .cover {
+        width: 85%;
+    }
+
+    .otherAuthors {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+@media(max-width: 320px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: .2fr 3fr .2fr;
+        align-items: center;
+        grid-template-areas:
+            "sideL center sideR";
+    }
+
+    .sidebarL {
+        grid-area: sidebarL;
+    }
+    
+    .sidebarR {
+        grid-area: sidebarR;
+    }
+
+    .centerPanel {
+        grid-area: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tabs {
+        line-height: 2em;
+    }
+
+    .otherAuthors {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+
+
+
+
+
+
+/* @media(min-width: 600px) and (max-width: 900px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: auto;
+        }
+    
+    
+    
+    .tab {
+        line-height: 1.75em;
+        display: block;
+        justify-content: center;
+        white-space: nowrap;
+    }
+    
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 600px) {
+
+    .container {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: auto;
+        }
+    
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .tab {
+        line-height: 1.75em;
+        display: block;
+        justify-content: center;
+        white-space: nowrap;
+    }
+    
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fullPost {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        justify-content: center;
+    }
+
+    .authorPhoto {
+        width: 75%;
+    }
+
+
+}
+
+@media(max-width: 320px) {
+    .container {
+        display: grid;
+        grid-template-columns: 1;
+    }
+
+    .tabs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .tab {
+        padding: 15px;
+        margin: 10px;
+        line-height: 1.75em;
+    }
+
+    .posts {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .fullPost {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+/* @media(min-width: 901px) {
+}
+
+@media(min-width: 901px) {
+
+}
+
+
+    /* .container {
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: auto;
+    }
+
+    .tabs {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, auto);
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .tab {
+        line-height: 1.75em;
+        justify-content: center;
+        white-space: nowrap;
+    }
+
+    
+
+    .post { 
+        width: 75%;
+    } */
+    
+ */
