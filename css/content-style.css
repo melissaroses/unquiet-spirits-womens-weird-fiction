@@ -5,6 +5,7 @@ body {
     margin: 0px;
     font-size: 1.25em;
     background-image: url(../images/wyndclyffe.jpg);
+    background-size: cover;
     width: 100%;
     position: absolute;
     top: 0;
