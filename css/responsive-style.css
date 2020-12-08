@@ -41,6 +41,16 @@
     .author {
         font-size: 1.25em;
     }
+
+    .social {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .socialLink {
+        margin: 10px;
+    }
 }
 
 @media(max-width: 320px) {
