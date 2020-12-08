@@ -1,0 +1,48 @@
+/* Blog Post Page  */
+
+.blogPost {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorPhoto {
+    height: 10%;
+    max-height: 300px;
+}
+
+.otherAuthors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.mini {
+    width: 50%;
+}
+/* Author Info Page */
+
+.avatar {
+    width: 50%;
+    height: 50%;
+    min-width: 100px; 
+    min-height: 100px;
+    max-width: 175px; 
+    max-height: 175px;
+    border-radius: 50%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.socialLink {
+    margin: 20px;
+}

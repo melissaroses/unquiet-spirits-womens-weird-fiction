@@ -1,0 +1,30 @@
+/* Blog Post Page */
+.authorPhoto {
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.8);  
+}
+
+figure {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.miniPortrait {
+    text-align: center;
+}
+
+.mini {
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px rgba(0,0,0,.8);    
+}
+/* Author Info Page */
+
+.profile {
+    text-align: center;
+}
+
+.avatar {
+    box-shadow: 0px 0px 25px rgba(0,0,0,.8); 
+    margin: 0 50px 0 50px;   
+}
