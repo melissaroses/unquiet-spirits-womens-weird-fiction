@@ -22,6 +22,12 @@
         flex-direction: rows;
         justify-content: space-between;
     }
+
+    .authorPhoto {
+        height: 100%;
+        max-height: 400px;
+        margin: 0 50px 0 50px;
+    }
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -49,7 +55,7 @@
     }
 
     .socialLink {
-        margin: 10px;
+        margin: 20px;
     }
 }
 

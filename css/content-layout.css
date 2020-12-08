@@ -58,6 +58,26 @@ footer {
     bottom: 0;
 }
 
+/* Blog Post Page  */
+
+.blogPost {
+    display: flex;
+    flex-direction: column;
+}
+
+.authorPhoto {
+    height: 10%;
+    max-height: 300px;
+}
+
+.otherAuthors {
+    display: flex;
+    flex-direction: row;
+}
+
+.mini {
+    width: 50%;
+}
 /* Author Info Page */
 
 .avatar {
