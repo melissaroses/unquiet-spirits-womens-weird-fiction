@@ -114,9 +114,7 @@
         line-height: 2em;
     }
     
-    .posts {
-        margin: 10%;        
-    }
+    
 
     .cardPortrait {
         width: 75%;
@@ -171,6 +169,10 @@
         grid-area: center;
         display: flex;
         flex-direction: column;
+    }
+
+    .tabs {
+        line-height: 2em;
     }
 }
 
