@@ -5,10 +5,7 @@ body {
     margin: 0px;
     font-size: 1.25em;
     background-image: url(../images/wyndclyffe.jpg);
-    background-size: 200% auto;
-    position: fixed;
-    top: 0;
-    left: 0;
+    background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     box-shadow: 50px 0px 75px 0 rgb(0, 0, 0, .9) inset, -50px 0px 75px 0 rgb(0, 0, 0, .9) inset;
