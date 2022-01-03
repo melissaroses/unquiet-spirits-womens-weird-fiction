@@ -75,8 +75,12 @@ a {
 .storyQuote {
     color: rgb(126, 0, 31);
     font-style: italic;
+    font-size: 1em;
 }
 
+.storyTitle {
+    margin: 0;
+}
 
 .bookCover {
     text-align: center;
